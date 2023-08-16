@@ -11,18 +11,15 @@ import {
     redux,
     tailwind,
     nodejs,
-    mongodb,
     git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
+    fiverr,
+    wizarding,
+    countries,
     threejs,
+    sofo,
+    vr,
+    postgresql,
+    nextjs,
   } from "../assets";
   
   export const navLinks = [
@@ -46,16 +43,12 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Frontend Developer",
       icon: mobile,
     },
     {
       title: "Backend Developer",
       icon: backend,
-    },
-    {
-      title: "Content Creator",
-      icon: creator,
     },
   ];
   
@@ -85,16 +78,16 @@ import {
       icon: redux,
     },
     {
+      name: "Next JS",
+      icon: nextjs,
+    },
+    {
       name: "Tailwind CSS",
       icon: tailwind,
     },
     {
       name: "Node JS",
       icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
     },
     {
       name: "Three JS",
@@ -105,151 +98,94 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "postgresql",
+      icon: postgresql,
     },
-    {
-      name: "docker",
-      icon: docker,
-    },
+    
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Full Stack Web Developer",
+      company_name: "Freelancer at Fiverr",
+      icon: fiverr,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "July 2023 - Now",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Developing web applications using React.js and Next.js.",
+        "Implementing responsive design.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      title: "Stock Management and Administration",
+      company_name: "Valu Ramallo",
+      icon: vr,
+      iconBg: "#cbd5e1",
+      date: "May 2021 - February 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Stock administration.", 
+        "Supplier and customer contact.",
+        "Sales invoicing."
       ],
     },
   ];
   
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Wizarding Wares",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "En este proyecto grupal realizamos un e-commerce donde se ofrecen productos del mundo de Harry Potter. El proyecto cuenta con un CRUD completo, CMS, y funcionalidades como filtros combinados, paginados, y más. Se implementaron auth0 para el login, y MercadoPago para los pagos.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "PostgreSQL",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "tailwindcss",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: wizarding,
+      source_code_link: "https://github.com/diegoleteliers10/wizarding_wares",
     },
     {
-      name: "Job IT",
+      name: "SOFO | helados",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Un proyecto individual utilizando Typescript y Next.js pensado para una heladería. En este caso, armé el landing de una heladería, se pueden ver los sabores, así como filtrarlos por categoría y buscar por nombre. Al ser mi primer proyecto con TS y Next, fue una experiencia interesante y divertida.",
       tags: [
         {
-          name: "react",
+          name: "typescript",
           color: "blue-text-gradient",
         },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
         {
           name: "nextjs",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwindcss",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: sofo,
+      source_code_link: "https://github.com/schcolnikj/sofo",
+    },
+    {
+      name: "Countries",
+      description:
+        "Este es mi primer proyecto como desarrollador web. Fue una experiencia muy linda, donde aprendí y conocí sobre cada etapa del proceso. Desde crear la base de datos, a escribir el Back End, y el Front End, así como darle el estilo minimalista que tiene mi página.",
+      tags: [
+        {
+          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "postgreSQL",
           color: "green-text-gradient",
         },
         {
@@ -257,9 +193,9 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: countries,
+      source_code_link: "https://github.com/schcolnikj/PI-Countries_SchcolnikJuan",
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, projects };
